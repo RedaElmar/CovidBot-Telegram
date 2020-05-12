@@ -1,8 +1,12 @@
 # CovidBot-Telegram
+
 <img align="left" src="https://user-images.githubusercontent.com/30802364/81627488-cfbca380-93ed-11ea-9863-309929536fc9.jpg" alt="logo" width="100"/>
 
-un agent conversationnel en Arabe Darija baptisé CovidBot qui vise à informer les Marocains sur l’évolution de cette pandémie dans le royaume, et également à les aider à mieux comprendre ce virus, comment s’en protéger et comment le combattre. 
 
+FR : un agent conversationnel en Arabe Darija baptisé CovidBot qui vise à informer les Marocains sur l’évolution de la pandémie CoronaVirus dans le royaume, et également à les aider à mieux comprendre ce virus, comment s’en protéger et comment le combattre.
+
+
+EN : a conversational agent in Arabic Darija called CovidBot which aims to inform Moroccans about the evolution of the CoronaVirus pandemic in the kingdom, and also to help them better understand this virus, how to protect themselves from it and how to fight it.
 
 
 
