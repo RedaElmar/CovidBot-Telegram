@@ -1,0 +1,293 @@
+DEBUG:rasa.nlu.training_data.loading:Training data format of './data/nlu.md' is 'md'.
+DEBUG:rasa.nlu.training_data.training_data:Validating training data...
+INFO:rasa.nlu.model:Starting to train component WhitespaceTokenizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component RegexFeaturizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component LexicalSyntacticFeaturizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component CountVectorsFeaturizer
+DEBUG:rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer:No text provided for response attribute in any messages of training data. Skipping training a CountVectorizer for it.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component CountVectorsFeaturizer
+DEBUG:rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer:No text provided for response attribute in any messages of training data. Skipping training a CountVectorizer for it.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component DIETClassifier
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow train graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow train graph.
+INFO:rasa.utils.tensorflow.models:Finished training.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component EntitySynonymMapper
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component ResponseSelector
+INFO:rasa.nlu.selectors.response_selector:Retrieval intent parameter was left to its default value. This response selector will be trained on training examples combining all retrieval intents.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Cannot train 'ResponseSelector'. No data was provided. Skipping training of the classifier.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Successfully saved model into 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current'
+DEBUG:rasa.nlu.training_data.loading:Training data format of './data/nlu.md' is 'md'.
+DEBUG:rasa.nlu.training_data.training_data:Validating training data...
+INFO:rasa.nlu.model:Starting to train component WhitespaceTokenizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component RegexFeaturizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component LexicalSyntacticFeaturizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component CountVectorsFeaturizer
+DEBUG:rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer:No text provided for response attribute in any messages of training data. Skipping training a CountVectorizer for it.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component CountVectorsFeaturizer
+DEBUG:rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer:No text provided for response attribute in any messages of training data. Skipping training a CountVectorizer for it.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component DIETClassifier
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow train graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow train graph.
+INFO:rasa.utils.tensorflow.models:Finished training.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component EntitySynonymMapper
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component ResponseSelector
+INFO:rasa.nlu.selectors.response_selector:Retrieval intent parameter was left to its default value. This response selector will be trained on training examples combining all retrieval intents.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Cannot train 'ResponseSelector'. No data was provided. Skipping training of the classifier.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Successfully saved model into 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current'
+DEBUG:rasa.utils.tensorflow.models:Loading the model ...
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\rasa-chatbot\lib\site-packages\tensorflow_core\python\ops\array_grad.py:563: _EagerTensorBase.cpu (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.identity instead.
+DEBUG:rasa.utils.tensorflow.models:Finished loading the model.
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow prediction graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow prediction graph.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current' doesn't exist?
+DEBUG:rasa.nlu.training_data.loading:Training data format of './data/nlu.md' is 'md'.
+DEBUG:rasa.nlu.training_data.training_data:Validating training data...
+INFO:rasa.nlu.model:Starting to train component WhitespaceTokenizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component RegexFeaturizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component LexicalSyntacticFeaturizer
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component CountVectorsFeaturizer
+DEBUG:rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer:No text provided for response attribute in any messages of training data. Skipping training a CountVectorizer for it.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component CountVectorsFeaturizer
+DEBUG:rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer:No text provided for response attribute in any messages of training data. Skipping training a CountVectorizer for it.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component DIETClassifier
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow train graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow train graph.
+INFO:rasa.utils.tensorflow.models:Finished training.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component EntitySynonymMapper
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Starting to train component ResponseSelector
+INFO:rasa.nlu.selectors.response_selector:Retrieval intent parameter was left to its default value. This response selector will be trained on training examples combining all retrieval intents.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Cannot train 'ResponseSelector'. No data was provided. Skipping training of the classifier.
+INFO:rasa.nlu.model:Finished training component.
+INFO:rasa.nlu.model:Successfully saved model into 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current'
+DEBUG:rasa.utils.tensorflow.models:Loading the model ...
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\rasa-chatbot\lib\site-packages\tensorflow_core\python\ops\array_grad.py:563: _EagerTensorBase.cpu (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.identity instead.
+DEBUG:rasa.utils.tensorflow.models:Finished loading the model.
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow prediction graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow prediction graph.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current' doesn't exist?
+DEBUG:rasa.utils.tensorflow.models:Loading the model ...
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\rasa-chatbot\lib\site-packages\tensorflow_core\python\ops\array_grad.py:563: _EagerTensorBase.cpu (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.identity instead.
+DEBUG:rasa.utils.tensorflow.models:Finished loading the model.
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow prediction graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow prediction graph.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current' doesn't exist?
+DEBUG:rasa.utils.tensorflow.models:Loading the model ...
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\rasa-chatbot\lib\site-packages\tensorflow_core\python\ops\array_grad.py:563: _EagerTensorBase.cpu (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.identity instead.
+DEBUG:rasa.utils.tensorflow.models:Finished loading the model.
+DEBUG:rasa.utils.tensorflow.models:Building tensorflow prediction graph...
+DEBUG:rasa.utils.tensorflow.models:Finished building tensorflow prediction graph.
+DEBUG:rasa.nlu.classifiers.diet_classifier:Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path 'C:\Users\HR\PycharmProjects\rasa-chatbot\models\nlu\current' doesn't exist?
+DEBUG:rasa.nlu.training_data.loading:Training data format of './data/nlu.md' is 'md'.
+INFO:rasa.nlu.test:Running model for predictions:
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+DEBUG:rasa.nlu.classifiers.diet_classifier:There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+DEBUG:rasa.nlu.selectors.response_selector:Adding following selector key to message property: default
+INFO:rasa.nlu.test:Intent evaluation results:
+INFO:rasa.nlu.test:Intent Evaluation: Only considering those 78 examples that have a defined intent out of 78 examples
+INFO:rasa.nlu.test:F1-Score:  1.0
+INFO:rasa.nlu.test:Precision: 1.0
+INFO:rasa.nlu.test:Accuracy:  1.0
+INFO:rasa.nlu.test:Classification report: 
+              precision    recall  f1-score   support
+
+       lhajr       1.00      1.00      1.00         8
+         dwa       1.00      1.00      1.00         8
+       salam       1.00      1.00      1.00        11
+       aarad       1.00      1.00      1.00         7
+       halat       1.00      1.00      1.00         5
+      himaya       1.00      1.00      1.00         3
+     ntichar       1.00      1.00      1.00         3
+         die       1.00      1.00      1.00         3
+  definition       1.00      1.00      1.00        30
+
+    accuracy                           1.00        78
+   macro avg       1.00      1.00      1.00        78
+weighted avg       1.00      1.00      1.00        78
+
+INFO:rasa.nlu.test:Entity evaluation results:
+INFO:rasa.nlu.test:Evaluation for entity extractor: DIETClassifier 
+WARNING:rasa.nlu.test:No labels to evaluate. Skip evaluation.
