@@ -1,4 +1,6 @@
-# CovidBot-Telegram
+CovidBot-Telegram
+=================
+
 [![Build Status](https://img.shields.io/github/forks/RedaElmar/CovidBot-Telegram.svg?style=flat-square)](https://github.com/RedaElmar/CovidBot-Telegram)
 [![Build Status](https://img.shields.io/github/stars/RedaElmar/CovidBot-Telegram.svg?style=flat-square)](https://github.com/RedaElmar/CovidBot-Telegram)
 [![License](https://img.shields.io/github/license/RedaElmar/CovidBot-Telegram.svg?style=flat-square)](https://github.com/RedaElmar/CovidBot-Telegram)
