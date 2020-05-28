@@ -1,4 +1,8 @@
 # CovidBot-Telegram
+[![Build Status](https://img.shields.io/github/forks/RedaElmar/CovidBot-Telegram.svg?style=flat-square)](https://github.com/RedaElmar/CovidBot-Telegram)
+[![Build Status](https://img.shields.io/github/stars/RedaElmar/CovidBot-Telegram.svg?style=flat-square)](https://github.com/RedaElmar/CovidBot-Telegram)
+[![License](https://img.shields.io/github/license/RedaElmar/CovidBot-Telegram.svg?style=flat-square)](https://github.com/RedaElmar/CovidBot-Telegram)
+
 
 <img align="left" src="https://user-images.githubusercontent.com/30802364/81627488-cfbca380-93ed-11ea-9863-309929536fc9.jpg" alt="logo" width="170"/>
 
